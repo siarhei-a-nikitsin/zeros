@@ -45,46 +45,46 @@ it('should calculate the number of zeros 36', () => {
   assert.equal(zeros('100!*100!!'), 36);
 });
 
-// it('should calculate the number of zeros 70', () => {
-//   assert.equal(zeros('99!*99!!*100!*100!!'), 70);
-// });
+it('should calculate the number of zeros 70', () => {
+  assert.equal(zeros('99!*99!!*100!*100!!'), 70);
+});
 
-// it('should calculate the number of zeros 18', () => {
-//   assert.equal(zeros('23!*24!!*25!*26!!*27!!'), 18);
-// });
+it('should calculate the number of zeros 18', () => {
+  assert.equal(zeros('23!*24!!*25!*26!!*27!!'), 18);
+});
 
-// it('should calculate the number of zeros 24', () => {
-//   assert.equal(zeros('45!*63!'), 24);
-// });
+it('should calculate the number of zeros 24', () => {
+  assert.equal(zeros('45!*63!'), 24);
+});
 
-// it('should calculate the number of zeros 30', () => {
-//   assert.equal(zeros('45!*63!*28!'), 30);
-// });
+it('should calculate the number of zeros 30', () => {
+  assert.equal(zeros('45!*63!*28!'), 30);
+});
 
-// it('should calculate the number of zeros 1', () => {
-//   assert.equal(zeros('45!*63!*28!*55!!'), 37);
-// });
+it('should calculate the number of zeros 1', () => {
+  assert.equal(zeros('45!*63!*28!*55!!'), 37);
+});
 
-// it('should calculate the number of zeros 48', () => {
-//   assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!'), 48);
-// });
+it('should calculate the number of zeros 48', () => {
+  assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!'), 48);
+});
 
-// it('should calculate the number of zeros 66', () => {
-//   assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!'), 66);
-// });
+it('should calculate the number of zeros 66', () => {
+  assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!'), 66);
+});
 
-// it('should calculate the number of zeros 82', () => {
-//   assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!*40!!*95!!'), 82);
-// });
+it('should calculate the number of zeros 82', () => {
+  assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!*40!!*95!!'), 82);
+});
 
-// it('should calculate the number of zeros 88', () => {
-//   assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!*40!!*95!!*25!'), 88);
-// });
+it('should calculate the number of zeros 88', () => {
+  assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!*40!!*95!!*25!'), 88);
+});
 
-// it('should calculate the number of zeros 125', () => {
-//   assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!*40!!*95!!*25!*45!*63!*28!*55!!'), 125);
-// });
+it('should calculate the number of zeros 125', () => {
+  assert.equal(zeros('45!*63!*28!*55!!*35!!*45!!*25!!*65!!*50!!*40!!*95!!*25!*45!*63!*28!*55!!'), 125);
+});
 
-// it('should calculate the number of zeros 93', () => {
-//   assert.equal(zeros('45!*5!*63!*5!*28!*5!*55!!*5!*35!!*5!*45!!*5!*25!!*5!*65!!*5!*50!!*5!*40!!*5!*95!!*5!'), 93);
-// });
+it('should calculate the number of zeros 93', () => {
+  assert.equal(zeros('45!*5!*63!*5!*28!*5!*55!!*5!*35!!*5!*45!!*5!*25!!*5!*65!!*5!*50!!*5!*40!!*5!*95!!*5!'), 93);
+});
